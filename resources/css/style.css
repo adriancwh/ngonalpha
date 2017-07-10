@@ -47,22 +47,25 @@ a {
   justify-content: flex-start;
   align-items: center;
   margin: auto;
-  height: 5rem;
 }
 
 .nav-menu ul li {
-  width: auto;
   font-weight: bold;
   font-size: 1.25rem;
-  padding: 1.875rem 1.5rem;
-  transition: all 0.2s;
+  padding: 1.750rem 1.5rem;
+  transition: all 0.3s;
 }
-.nav-menu ul li:hover {
+/*.nav-menu ul li:hover {
   box-shadow: 0px 0px 10px black;
   color: black;
   background-color: rgba(255, 255, 255, 0.7);
 
+}*/
+.nav-menu ul li:hover {
+  color: black;
+  border-bottom: 5px solid rgba(207,27,26,0.9);
 }
+
 /*--END OF HEADER--*/
 .banner {
   display: flex;
@@ -73,7 +76,7 @@ a {
   color: black;
   overflow: hidden;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1441px) {
   .banner {
     height: 960px;
   }
@@ -91,6 +94,7 @@ a {
 
 #mask {
   position: relative;
+  top: -50px;
 }
 .banner ul {
   margin:0;
@@ -105,13 +109,13 @@ a {
   height: 725px;
 }
 .banner li.firstanimation {
-  animation: cycle 15s linear infinite;
+  animation: cycle 15s ease-in-out infinite;
 }
 .banner li.secondanimation {
-	animation: cycletwo 15s linear infinite;
+	animation: cycletwo 15s ease-in-out infinite;
 }
 .banner li.thirdanimation {
-	animation: cyclethree 15s linear infinite;
+	animation: cyclethree 15s ease-in-out infinite;
 }
 
 /*---KEYFRAMES GO HERE---*/
@@ -274,12 +278,15 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  padding: 1rem 0;
-  filter: grayscale(1);
+  padding: 2rem 0;
 }
 .social-media img {
   width: 15%;
   height: 15%;
+  filter: grayscale(1);
+}
+.social-media img:hover {
+  filter: none;
 }
 
 /*--END OF ABOUT--*/
