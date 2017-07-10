@@ -1,0 +1,65 @@
+/* ANIMATION */
+/*@-moz-keyframes cycle {
+	0%  { right:0px; }
+	4%  { right:0px; }
+	24% { right:0px; opacity:1; z-index:0; }
+	30% { right:100%; opacity:0; z-index:0; }
+	31% { right:-100%; opacity:0; z-index:-1; }
+	88% { right:-100%; opacity:0; z-index:0; }
+	94% { right:-100%; opacity:0; }
+	100%{ right:0px; opacity:1; }
+}
+@-moz-keyframes cycletwo {
+	0%  { right:-100%; opacity:0; }
+	16% { right:-100%; opacity:0; }
+	30% { right:0px; opacity:1; }
+	36% { right:0px; opacity:1; }
+	42% { right:0px; opacity:1; z-index:0; }
+	60% { right:100%; opacity:0; z-index:0; }
+	61% { right:-100%; opacity:0; z-index:-1; }
+	100%{ right:-100%; opacity:0; z-index:-1; }
+}
+@-moz-keyframes cyclethree {
+	0%  { right:-100%; opacity:0; }
+	54% { right:-100%; opacity:0; }
+	60% { right:0px; opacity:1; }
+	66% { right:0px; opacity:1; }
+	72% { right:0px; opacity:1; }
+	98% { right:725px; opacity:0; z-index:0; }
+	99% { right:-100%; opacity:0; z-index:-1; }
+	100%{ right:-100%; opacity:0; z-index:-1; }
+}
+*/
+@-webkit-keyframes cycle {
+	0%  { right:0px; }
+	4%  { right:0px; }
+	24% { right:0px; opacity:1; z-index:0; }
+	30% { right:100%; opacity:0; z-index:0; }
+	31% { right:-100%; opacity:0; z-index:-1; }
+	88% { right:-100%; opacity:0; z-index:0; }
+	94% { right:-100%; opacity:0; }
+	100%{ right:0px; opacity:1; }
+}
+@-webkit-keyframes cycletwo {
+	0%  { right:-100%; opacity:0; }
+	24% { right:-100%; opacity:0; }
+	30% { right:0px; opacity:1; }
+	40% { right:0px; opacity:1; }
+	54% { right:0px; opacity:1; z-index:0; }
+	60% { right:100%; opacity:0; z-index:0; }
+	61% { right:-100%; opacity:0; z-index:-1; }
+	100%{ right:-100%; opacity:0; z-index:-1; }
+}
+@-webkit-keyframes cyclethree {
+	0%  { right:-100%; opacity:0; }
+	54% { right:-100%; opacity:0; }
+	60% { right:0px; opacity:1; }
+	70% { right:0px; opacity:1; }
+	94% { right:0px; opacity:1; }
+	99%{ right:100%; opacity:0; z-index:0; }
+	100%{ right:-100%; opacity:0; z-index:-1; }
+}
+
+
+/* ANIMATION BAR */
+@-moz-keyframes fullexpand {
